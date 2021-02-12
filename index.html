@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mock page to experiment with glass div background effects"
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+      media="print"
+      onload="this.media='all';this.onload=null"
+    />
+    <noscript><link rel="stylesheet" href="./style.css" /></noscript>
+    <title>Glass Design</title>
+  </head>
+  <body>
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <div class="user">
+            <img src="./images/portrait1.jpg" alt="user_avatar" />
+            <h1>Kyle Lynch</h1>
+            <p>Let's play games</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <img src="./images/discord.svg" alt="game_platform_logo" />
+              <h2>Discord</h2>
+            </div>
+            <div class="link">
+              <img src="./images/steam.svg" alt="game_platform_logo" />
+              <h2>Steam</h2>
+            </div>
+            <div class="link">
+              <img src="./images/epicgames.svg" alt="game_platform_logo" />
+              <h2>Epic Games</h2>
+            </div>
+            <div class="link">
+              <img src="./images/rockstargames.svg" alt="game_platform_logo" />
+              <h2>Rockstar Social Club</h2>
+            </div>
+          </div>
+          <div class="meetup">
+            <h2>Meet up with me</h2>
+            <img src="./images/controller.svg" alt="controller_icon" />
+          </div>
+        </div>
+
+        <div class="games">
+          <div class="current">
+            <h1>Currently Playing</h1>
+            <input type="text" id="current_search" placeholder="Search Games" />
+            <label for="current_search" class="offscreen">Search</label>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="./images/turismoR.png" alt="card_pictures" />
+              <div class="card-info">
+                <h2>Grand Theft Auto V</h2>
+                <p>Steam</p>
+                <div class="progress progress1"></div>
+              </div>
+              <h2 class="percentage">100%</h2>
+            </div>
+            <div class="card">
+              <img src="./images/carno.png" alt="card_pictures" />
+              <div class="card-info">
+                <h2>Jurassic World Evolution</h2>
+                <p>Epic Games</p>
+                <div class="progress progress2"></div>
+              </div>
+              <h2 class="percentage">85%</h2>
+            </div>
+            <div class="card">
+              <img src="./images/ship.png" alt="card_pictures" />
+              <div class="card-info">
+                <h2>World of Warships</h2>
+                <p>NA Server</p>
+                <div class="progress progress3"></div>
+              </div>
+              <h2 class="percentage">75%</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  </body>
+</html>
